@@ -1,0 +1,25 @@
+{
+    "name": "iceveil/icv-env",
+    "description": "Leitor de variáveis de ambiente (.env) em PHP puro, sem dependências. Feito para funcionar em hospedagens compartilhadas limitadas.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["env", "dotenv", "php", "iceveil", "icv", "lightweight", "shared-hosting"],
+    "authors": [
+        {
+            "name": "Iceveil Studios",
+            "homepage": "https://github.com/iceveil"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iceveil\\Env\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
