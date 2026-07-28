@@ -7,7 +7,7 @@
  * limitadas (ex: InfinityFree) — sem Composer obrigatório.
  *
  * @package   Iceveil\Env
- * @author    Iceveil Studios <https://github.com/iceveil>
+ * @author    Iceveil Studios <https://github.com/iceveilstudios>
  * @license   MIT
  */
 
